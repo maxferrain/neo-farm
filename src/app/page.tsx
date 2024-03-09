@@ -11,10 +11,11 @@ import Team from "@/components/Team";
 // import Testimonials from "@/components/Testimonials";
 import { getAllPosts } from "@/utils/markdown";
 import { Metadata } from "next";
+// import HomeBlogSection from "@/components/Blog/HomeBlogSection";
 
 export const metadata: Metadata = {
   title: "Neo farm - цифровые инвестиции",
-  description: "Добро пожаловать в эпоху цифрового фермерства",
+  description: "Добро пожаловать в эпоху цифрового фермерства"
 };
 
 export default function Home() {

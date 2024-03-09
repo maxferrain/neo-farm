@@ -16,7 +16,7 @@ async function main() {
             port: process.env.FTP_PORT, // Your credentials
 
             localRoot: outDir, // Location of build files in project
-            remoteRoot: "/", // Upload location on remote, replace with subfolder on FTP-server if required
+            remoteRoot: "/www/neofarm.ru/", // Upload location on remote, replace with subfolder on FTP-server if required
 
             include: ["*", "**/*"], // Upload all files from build folder
             exclude: [], // Exclude no files

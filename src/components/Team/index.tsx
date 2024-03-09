@@ -7,7 +7,7 @@ const teamData: TeamType[] = [
     id: 1,
     name: "Юрий Максимов",
     designation: "Founder, CEO",
-    companies: 'ФармНавигатор, Xerox, R.O.C.S',
+    companies: 'IT-платформа ФармНавигатор, существенно повлиявшая на фармацевтику стран СНГ',
     image: "/images/team/yury.jpg",
     facebookLink: "/#",
     twitterLink: "/#",

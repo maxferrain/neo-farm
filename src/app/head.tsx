@@ -1,12 +1,12 @@
-export default function Head() {
+export const Head = () => {
   return (
-    <>
+    <head>
       <title>
-      Play Next.js - SaaS Starter Kit and Boilerplate for Next.js
+          Neo farm - цифровые инвестиции
       </title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
-      <meta name="description" content="This SaaS Boilerplate and Starter Kit for Next.js is designed specifically for SaaS startups. It's a free resource complete with all the necessary integrations, pages, and components you require to build and launch a comprehensive SaaS website with robust features." />
+      <meta name="description" content="Инновации в агробизнесе: уникальная платформа на пересечении фермерства и финтеха" />
       <link rel="icon" href="/images/favicon.ico" />
-    </>
+    </head>
   );
 }

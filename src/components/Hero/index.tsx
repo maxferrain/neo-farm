@@ -2,49 +2,43 @@ import Image from "next/image";
 import Link from "next/link";
 const Hero = () => {
   return (
-    <>
       <section
         id="home"
-        className="relative overflow-hidden pt-[120px] md:pt-[130px] lg:pt-[160px]"
+        className="relative overflow-hidden pt-[120px] md:pt-[130px] lg:pt-[170px] bg-hero-pattern bg-center md:bg-cover bg-hero-bg-size bg-no-repeat bg-middle"
       >
-
-        <Image src={'/images/hero/cow.jpg'} className={'z-[-1]'} unoptimized fill={true} alt='background'/>
-
         <div className="container">
-          <div className="-mx-4 flex flex-wrap items-center">
+          <div className="-mx-4 flex flex-wrap ">
             <div className="w-full px-4">
               <div
-                className="hero-content wow fadeInUp mx-auto max-w-[780px] text-center"
+                className="hero-content wow fadeInUp text-left"
                 data-wow-delay=".2s"
               >
-                <h1 className="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]">
+                <h1 className="mb-7 max-w-[780px] text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]">
                   Добро пожаловать в эпоху цифрового фермерства
                 </h1>
-                <p className="mx-auto mb-9 max-w-[600px] text-base font-medium text-white sm:text-lg sm:leading-[1.44]">
-                  Мы ведем цифровую революцию в фермерском бизнесе, создавая уникальную платформу на пересечении агробизнеса и финтеха.
-
-
+                <p className="mb-14 max-w-[600px] text-base font-medium text-white sm:text-lg sm:leading-[1.44]">
+                  Инновации в агробизнесе:<br/>уникальная платформа на пересечении фермерства и финтеха
                 </p>
-                <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
+                <ul className="mb-10 flex flex-wrap items-center gap-5">
                   <li>
                     <Link
                       href="/mission"
-                      className="inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2"
+                      className="inline-flex items-center justify-center rounded-xl bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2"
                     >
-                      Наши цели
+                      Наша миссия
                     </Link>
                   </li>
                   <li>
                     <Link
                       href="/contact"
-                      className="flex items-center gap-4 rounded-md bg-white/[0.12] px-6 py-[14px] text-base font-medium text-white transition duration-300 ease-in-out hover:bg-white hover:text-dark"
+                      className="flex items-center gap-4 rounded-xl bg-white/[0.12] px-6 py-[14px] text-base font-medium text-white transition duration-300 ease-in-out hover:bg-white hover:text-dark"
                     >
                       Связаться с нами
                     </Link>
                   </li>
                 </ul>
 
-                <div>
+                <div className='mb-10 md:mb-0'>
                   <p className="mb-4 text-center text-base font-medium text-white/60">
                     Нас уже поддерживают
                   </p>
@@ -85,19 +79,19 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className="w-full px-4">
+            <div className="w-full px-4 hidden md:block">
               <div
-                className="wow fadeInUp relative z-10 mx-auto max-w-[845px]"
+                className="wow fadeInUp relative z-10 mx-auto max-w-[945px]"
                 data-wow-delay=".25s"
               >
-                <div className="mt-16">
+                <div className="mt-12">
                   <Image
                     src="/images/hero/hero-image.jpg"
                     unoptimized
                     alt="hero"
                     className="mx-auto max-w-full rounded-t-xl rounded-tr-xl"
                     width={845}
-                    height={316}
+                    height={270}
                   />
                 </div>
                 <div className="absolute -left-9 bottom-0 z-[-1]">
@@ -1245,7 +1239,6 @@ const Hero = () => {
           </div>
         </div>
       </section>
-    </>
   );
 };
 

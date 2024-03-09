@@ -8,6 +8,7 @@ import { ThemeProvider } from "next-themes";
 import "../styles/index.css";
 import "../styles/prism-vsc-dark-plus.css";
 import ToasterContext from "./api/contex/ToasetContex";
+import {Head} from "@/app/head";
 
 export default function RootLayout({
   children,
@@ -16,11 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning={true} className="!scroll-smooth" lang="ru">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
-      <head />
+      <Head/>
 
       <body>
         <SessionProvider>
