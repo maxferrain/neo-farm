@@ -10,6 +10,18 @@ const config: Config = {
   theme: {
     extend: {
       'neon-brand': '#C4FF61',
+      textColor: {
+        'dark-green': '#134A36',
+      },
+      backgroundColor: {
+        'neon-brand': '#C4FF61',
+        'light-green': 'var(--color--vivid-green-cyan)',
+        'green': '#69B575',
+        'dark-green': '#134A36',
+        'beige': '#FAF5EB',
+        'bright-yellow': '#FCE908',
+        'dark-yellow': '#F6BE00'
+      },
       backgroundSize: {
         'middle': 'auto 100%',
       },

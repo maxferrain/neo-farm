@@ -12,7 +12,7 @@ const Contact = () => {
                   СВЯЖИТЕСЬ С НАМИ
                 </span>
                 <h2 className="max-w-[260px] text-[35px] font-semibold leading-[1.14] text-dark dark:text-white">
-                  Будем рады ответить на любой вопрос
+                  Будем рады ответить на любой вопрос
                 </h2>
               </div>
               <div className="mb-12 flex flex-wrap justify-between lg:mb-0">
@@ -33,7 +33,7 @@ const Contact = () => {
                       Мы здесь
                     </h3>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      121205, город Москва, тер Инновационного Центра Сколково, Большой б-р, д. 42 стр. 1, помещ. 136 р.м. 3
+                      121205, город Москва, тер Инновационного Центра Сколково, Большой б-р, д. 42 стр. 1, помещ. 136 р. м. 3
                     </p>
                   </div>
                 </div>
@@ -50,10 +50,10 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">
-                      Как мы можем вам помочь?
+                      Как мы можем вам помочь?
                     </h3>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      mixmaxrus@yandex.ru
+                      info@neofarm.ru
                     </p>
                   </div>
                 </div>
@@ -67,7 +67,7 @@ const Contact = () => {
               "
             >
               <h3 className="mb-8 text-2xl font-semibold text-dark dark:text-white md:text-[28px] md:leading-[1.42]">
-                Оставить заявку на консультацию
+                Оставить заявку на консультацию
               </h3>
               <form>
                 <div className="mb-[22px]">
@@ -75,7 +75,7 @@ const Contact = () => {
                     htmlFor="fullName"
                     className="mb-4 block text-sm text-body-color dark:text-dark-6"
                   >
-                    Как к вам обращаться?
+                    Как к вам обращаться?
                   </label>
                   <input
                     type="text"
@@ -120,7 +120,7 @@ const Contact = () => {
                   </label>
                   <textarea
                     name="message"
-                    rows={1}
+                    rows={2}
                     placeholder="Ваш вопрос"
                     className="w-full resize-none border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
                   ></textarea>

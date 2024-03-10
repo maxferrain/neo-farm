@@ -1,25 +1,24 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 const About = () => {
   return (
-    <section
-      id="about"
-      className="bg-gray-1 pb-8 pt-20 dark:bg-dark-2 lg:pb-[70px] lg:pt-[120px]"
-    >
+    <section id="about" className="bg-gray-1 pb-8 pt-20 dark:bg-dark-2 lg:pb-[70px] lg:pt-[120px]">
       <div className="container">
         <div className="wow fadeInUp" data-wow-delay=".2s">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-12 max-w-[540px] lg:mb-0">
                 <h2 className="mb-5 text-3xl font-bold leading-tight text-dark dark:text-white sm:text-[40px] sm:leading-[1.2]">
-                  Зачем в нас инвестировать?
+                  Зачем в нас инвестировать?
                 </h2>
                 <p className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
-                  Инвестируя в нас, вы вкладываете в будущее фермерского бизнеса, поддерживая инновационный проект, реализуемый сильной командой профессионалов.
-                  Наш продукт соответствует регулятивным требованиям и имеет большой рыночный потенциал в рамках стремительно развивающегося сектора агротехнологий.
+                  Инвестируя в нас, вы вкладываетесь в будущее фермерского бизнеса, поддерживая инновационный проект,
+                  реализуемый сильной командой профессионалов. Наш продукт соответствует регулятивным требованиям
+                  и имеет большой рыночный потенциал в рамках стремительно развивающегося сектора агротехнологий.
                   <br /> <br />
-                  Мы предлагаем вам принять участие в деле, которое не только обеспечит вам стабильный доход, но и поможет повысить эффективность и устойчивость сельскохозяйственного сектора.
-                  Присоединяйтесь к нам и вложите в будущее нашего сельского хозяйства!
+                  Мы предлагаем вам принять участие в деле, которое не только обеспечит вам стабильный доход,
+                  но и поможет повысить эффективность и устойчивость сельскохозяйственного сектора. Присоединяйтесь
+                  к нам и меняйте будущее сельского хозяйства!
                 </p>
 
                 <a
@@ -34,9 +33,7 @@ const About = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="-mx-2 flex flex-wrap sm:-mx-4 lg:-mx-2 xl:-mx-4">
                 <div className="w-full px-2 sm:w-1/2 sm:px-4 lg:px-2 xl:px-4">
-                  <div
-                    className={`relative mb-4 sm:mb-8 sm:h-[400px] md:h-[540px] lg:h-[400px] xl:h-[500px] `}
-                  >
+                  <div className={`relative mb-4 sm:mb-8 sm:h-[400px] md:h-[540px] lg:h-[400px] xl:h-[500px] `}>
                     <Image
                       src="/images/about/about-image-01.jpg"
                       alt="about image"
@@ -60,16 +57,9 @@ const About = () => {
 
                   <div className="relative z-10 mb-4 flex items-center justify-center overflow-hidden bg-primary px-6 py-12 sm:mb-8 sm:h-[160px] sm:p-5 lg:mb-4 xl:mb-8">
                     <div>
-
-                      <span className="block text-base font-semibold text-white">
-                        У нас уже
-                      </span>
-                      <span className="block text-5xl font-extrabold text-white">
-                        09
-                      </span>
-                      <span className="block text-base font-medium text-white text-opacity-70">
-                        лет опыта
-                      </span>
+                      <span className="block text-base font-semibold text-white">У нас уже</span>
+                      <span className="block text-5xl font-extrabold text-white">09</span>
+                      <span className="block text-base font-medium text-white text-opacity-70">лет опыта</span>
                     </div>
                     <div>
                       <span className="absolute left-0 top-0 -z-10">
@@ -99,11 +89,7 @@ const About = () => {
                               gradientUnits="userSpaceOnUse"
                             >
                               <stop stopColor="white" />
-                              <stop
-                                offset="1"
-                                stopColor="white"
-                                stopOpacity="0"
-                              />
+                              <stop offset="1" stopColor="white" stopOpacity="0" />
                             </linearGradient>
                           </defs>
                         </svg>
@@ -135,11 +121,7 @@ const About = () => {
                               gradientUnits="userSpaceOnUse"
                             >
                               <stop stopColor="white" />
-                              <stop
-                                offset="1"
-                                stopColor="white"
-                                stopOpacity="0"
-                              />
+                              <stop offset="1" stopColor="white" stopOpacity="0" />
                             </linearGradient>
                           </defs>
                         </svg>
@@ -171,11 +153,7 @@ const About = () => {
                               gradientUnits="userSpaceOnUse"
                             >
                               <stop stopColor="white" />
-                              <stop
-                                offset="1"
-                                stopColor="white"
-                                stopOpacity="0"
-                              />
+                              <stop offset="1" stopColor="white" stopOpacity="0" />
                             </linearGradient>
                           </defs>
                         </svg>

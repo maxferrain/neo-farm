@@ -13,7 +13,7 @@ const PricingPage = () => {
   return (
     <>
       <Breadcrumb pageName="Наши цели" />
-      {/*<Pricing />*/}
+      <Pricing />
       <Faq />
     </>
   );
